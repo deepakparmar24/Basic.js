@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+
+            <div class="nav">
+                <div class="nav-left">
+                    <div class="image">
+                        <img src="icon-1728552_1280.webp" alt="">
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li>home</li>
+                        <li>about</li>
+                        <li>contact</li>
+                        <li>address</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="box">
+                <div class="box1" onclick="showDetails('WATCH','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','ticker-150395_1280.webp') ">
+                    <h2>WATCH</h2>
+                    <img src="ticker-150395_1280.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                    
+                </div>
+                <div class="box2" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') ">
+                     <h2>SHOES</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                </div>
+                <div class="box3" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') ">
+                     <h2>LAPTOP</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                </div>
+                <div class="box4" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') "> 
+                    <h2>COMPUTER</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                </div>
+
+                
+            </div>
+
+            <div class="box-1">
+                <div class="box1" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') ">
+                    <h2>heading</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                    
+                </div>
+                <div class="box2" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') "> 
+                    <h2>heading</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                </div>
+                <div class="box3" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') ">
+                     <h2>heading</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                </div>
+                <div class="box4" onclick="showDetails('heading','Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons','images.jpg') "> 
+                    <h2>heading</h2>
+                    <img src="images.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet cons</p>
+                </div>
+            </div>
+        
+        <div class="overlay" id="overlay">
+            <div class="popup">
+                <span class="close-btn" onclick="hideDetails()">&times;</span>
+                <img class="product-popup-img" id="product-popup-img" src="" alt="Product Image">
+                <h2 id="product-title"></h2>
+                <p id="product-description"></p>
+            </div>
+        </div>
+    </div>
+        <div class="footer">
+            @  Its a simple e-commerce website
+        </div>
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>

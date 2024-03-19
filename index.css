@@ -1,0 +1,152 @@
+.header {
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    background-image: url(showing.avif);
+    background-size: cover;
+}
+
+
+.nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    
+}
+
+.nav-left{
+    width: 50%;
+    /* background-color: green; */
+
+
+}
+
+.nav-right{
+    width: 50%;
+    /* background-color: blue; */
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    line-height: 3;
+    font-size: 20px;
+    justify-content: space-around;
+
+}
+
+.section{
+    width: 100%;
+    /* aspect-ratio: 1; */
+    height: 700px;
+    /* background-color: brown; */
+}
+
+.box{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.box1{
+    width: 25%;
+    /* background-color: red; */
+    margin: 20px;
+    
+    
+}
+
+.box2{
+    width: 25%;
+    /* background-color: blue; */
+    margin: 20px;
+}
+
+.box3{
+    width: 25%;
+    /* background-color: red; */
+    margin: 20px;
+}
+
+.box4{
+    width: 25%;
+    /* background-color: blue; */
+    margin: 20px;
+}
+
+
+
+
+img{
+    height: 150px;
+        
+}
+
+
+.box-1{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 3;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+ 
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.popup {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.product-popup-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
